@@ -1,0 +1,3 @@
+{
+    "exec":"clear && node app.js"
+}

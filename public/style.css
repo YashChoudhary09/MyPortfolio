@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+/* navbar-div */
+.navbar-div{
+    background-color: #493628 !important;
+    height: 5rem !important;
+   
+}
+
+.nav-link{
+    color:#D6C0B3 !important;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    color:#D6C0B3 !important;
+}
+
+.nav-link:hover{
+    background-color: #AB886D !important;
+    color: aliceblue !important;
+}
+
+/* image */
+
+.img-div{
+    border: none !important;
+    border-radius: 20px !important;
+    background-color: bisque !important;
+}
+
+body{
+    background-color: bisque !important;
+    overflow-x: hidden !important;
+}
+
+.card-div{
+    offset: 3!important;
+}
+
+/* body home page */
+.body-div{
+    display: flex !important;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 25rem !important;
+}
+
+.animation-container{
+  width: 40rem !important;
+  height: 5rem !important;
+}
+
+.animation-container p{
+    font-size: 2rem !important;
+}
+
+.animation-container .animation-heading{
+    font-size: 2.8rem !important;
+    color: #110904;
+}
+
+/* skill page */
+
+.quote{
+    border:  2px solid  #493628 !important;
+    border-radius: 5% !important;
+    height: 5rem !important;
+    width: 70rem !important;
+    margin-top: 1.5rem !important;
+   /* margin-left: 1rem !important; */
+   box-shadow: 3px 3px 5px #493628 !important;
+  
+}
+
+.skill-quote{
+   text-align: center !important; 
+}
+
+.skill-quoteby{
+    text-align: end !important;
+    margin-right: 0.2rem !important;
+}
+
+.skill-box{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+    margin-bottom: 1rem !important;
+}
+
+.skill-card{
+    height: 10rem !important;
+    width: 20rem !important;
+    margin-top: 1.5rem !important;
+    text-align: center !important;
+    background-color: #AB886D !important;
+    box-shadow: 5px 5px 8px #1c1a18 !important;
+}
+
+.skill-card:hover{
+   box-shadow: 10px 15px 20px #1c1a18 !important;
+
+}
+
+.skill-card i{
+    font-size: 4rem !important;
+    margin-top: 1rem !important;
+}
+
+
+.skill-img{
+    height: 5rem !important;
+    width: 5rem !important;
+    margin: auto !important;
+    margin-top: 1rem !important;
+}
+.skill-img img{
+    object-fit: cover;
+    height:  100% !important;
+    width:  100% !important;
+  
+}
+
+.skill-card h5{
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    text-decoration: underline !important;
+}
+
+/* education page */
+.college ,.school{
+    display: flex;
+}
+.college-div,.school-div{
+    background-color: bisque;
+    height: 14rem;
+    width: 40rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 6px 6px 8px #1c1a18;
+}
+
+
+ .college-div:hover{
+        box-shadow: 10px 10px 15px #1c1a18;
+    }
+.school-div:hover{
+        box-shadow: 10px 10px 15px #1c1a18;
+    }
+.college-icon ,.school-icon{
+    font-size: 10rem;
+   margin: 1.5rem 0  0 10rem ;
+    height: 12rem;
+    width: 15rem;
+    /* background-color: #D6C0B3; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 8px #493628;
+}
+
+.college-icon:hover{
+    box-shadow: 10px 10px 15px #493628;
+}
+.school-icon:hover{
+    box-shadow: 10px 10px 15px #493628;
+}
+
+/* project page */
+.project{
+    height: 40rem;
+    width: 50rem;
+    background-color: bisque;
+    box-shadow: 8px 8px 10px #493628;
+    margin: 1rem auto 1rem auto ;
+    line-height: 2rem;
+}
+.project a{
+    text-decoration: none;
+  color: #493628;
+}
+
+/* media query */
+@media(max-width:400px){
+    .animation-container{
+        width: 30rem;
+        height: 1rem ;
+    }
+    .animation-container .animation-heading{
+        font-size: 2rem !important;
+        color: #110904;
+        width: 15rem;
+    }
+    .animation-container p{
+       font-size: 1.2rem !important;
+    }
+    .nav-link{
+      margin-left: 1rem !important;
+    }
+    .navbar-nav{
+        border: 2px solid #AB886D;
+        position: sticky !important;
+        z-index: 1;
+        background-color:#493628!important;
+    }
+    .quote{
+        border:  2px solid  #493628 !important;
+        border-radius: 5% !important;
+        height: 10rem !important;
+        width: 20rem !important;
+      margin: 1rem auto 1rem auto;
+       box-shadow: 3px 3px 5px #493628 !important;
+      padding: 0.5rem;
+    }
+    .skill-quoteby{
+        text-align: center !important;
+        margin-top: 1rem ;
+    }
+    .college-div,.school-div{
+        background-color: bisque;
+        height: 14rem;
+        width: 40rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 6px 6px 8px #1c1a18;
+    }
+    .college-icon ,.school-icon{
+        display: none !important;
+    }
+    .project{
+        height: 60rem;
+        width: 20rem;
+        background-color: bisque;
+        box-shadow: 8px 8px 10px #493628;
+        margin: 1rem auto 1rem auto ;
+        line-height: 2rem;
+    }
+}

@@ -10,7 +10,9 @@ app.set("views",path.join(__dirname,"view"));
 app.engine("ejs",ejsMate);
 
 // routes
-
+app.get("/",(req,res)=>{
+    res.redirect("portfolio.ejs");
+})
 // home page
 app.get("/myportfolio",(req,res)=>{
     res.render("portfolio.ejs");

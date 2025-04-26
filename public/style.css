@@ -202,6 +202,7 @@ body{
     }
     .nav-link{
       margin-left: 1rem !important;
+      width: 10rem !important;
     }
     .navbar-nav{
         border: 2px solid #AB886D;
@@ -235,7 +236,7 @@ body{
         display: none !important;
     }
     .project{
-        height: 60rem;
+        height: 68rem;
         width: 20rem;
         background-color: bisque;
         box-shadow: 8px 8px 10px #493628;

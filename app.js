@@ -11,7 +11,7 @@ app.engine("ejs",ejsMate);
 
 // routes
 app.get("/",(req,res)=>{
-    res.redirect("portfolio.ejs");
+    res.render("portfolio.ejs");
 })
 // home page
 app.get("/myportfolio",(req,res)=>{

@@ -109,6 +109,7 @@ body{
     height: 10rem !important;
     width: 15rem !important;
     margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
     text-align: center !important;
     background-color: #DFD0B8 !important;
     box-shadow: 5px 5px 8px #1c1a18 !important;
@@ -341,9 +342,9 @@ body{
     object-fit: cover;
 }
    .project{
-        height: 118rem;
-        width: 20rem;
-        background-color: bisque;
+        height: 120rem;
+        width: 22rem;
+        background-color: #EFEEEA;
         box-shadow: 8px 8px 10px #493628;
         margin: 1rem auto 1rem auto ;
         line-height: 2rem;

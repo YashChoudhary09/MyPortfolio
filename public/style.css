@@ -5,18 +5,18 @@
 }
 /* navbar-div */
 .navbar-div{
-    background-color: #493628 !important;
+    background-color: #000000 !important;
     height: 5rem !important;
-   
+   border-bottom: 2px solid #EFEEEA !important;
 }
 
 .nav-link{
-    color:#D6C0B3 !important;
+    color:#EAD8B1 !important;
 }
 
 .navbar-brand{
     font-size: 2rem !important;
-    color:#D6C0B3 !important;
+    color:#DFD0B8 !important;
 }
 
 .nav-link:hover{
@@ -27,54 +27,65 @@
 /* image */
 
 .img-div{
-    border: none !important;
-    border-radius: 20px !important;
-    background-color: bisque !important;
+  height: 15rem !important;
+  width: 15rem !important;
+   text-align: center !important;
+   margin-bottom: 6rem !important;
 }
-
+.img{
+  height: 100% !important;
+  width:  100% !important;
+  object-fit: cover !important;
+  border-radius: 100px !important;
+  border: 5px solid white !important;
+}
 body{
-    background-color: bisque !important;
+    background-color: #000000 !important;
     overflow-x: hidden !important;
 }
 
-.card-div{
-    offset: 3!important;
-}
+
 
 /* body home page */
+.about-container{
+    box-shadow: 6px 6px 10px #273F4F;
+    height: 15rem !important;
+    width: 40rem !important;
+    padding: 10px !important;
+    margin-right: 4rem !important;
+    background-color: #DFD0B8 !important;
+}
 .body-div{
     display: flex !important;
     justify-content: space-around;
     align-items: center;
-    width: 100%;
+    width: 100% !important;
     height: 25rem !important;
+    margin-top: 0.5rem !important;
+    background-color: #EFEEEA !important;
 }
 
 .animation-container{
-  width: 40rem !important;
-  height: 5rem !important;
-}
-
-.animation-container p{
-    font-size: 2rem !important;
+  margin-top: 1rem !important;
+  width: 15rem !important;
+  height: 2.3rem !important;
+  box-shadow: 3px 3px 6px #273F4F;
 }
 
 .animation-container .animation-heading{
-    font-size: 2.8rem !important;
+    font-size: 1.6rem !important;
     color: #110904;
 }
 
 /* skill page */
 
 .quote{
-    border:  2px solid  #493628 !important;
     border-radius: 5% !important;
-    height: 5rem !important;
-    width: 70rem !important;
-    margin-top: 1.5rem !important;
-   /* margin-left: 1rem !important; */
-   box-shadow: 3px 3px 5px #493628 !important;
-  
+    height: 7rem !important;
+    width: 50rem !important;
+   margin: 1rem auto 1rem auto;
+  background-color: #EFEEEA !important;
+  padding: 3px !important;
 }
 
 .skill-quote{
@@ -91,19 +102,20 @@ body{
     justify-content: space-evenly !important;
     flex-wrap: wrap !important;
     margin-bottom: 1rem !important;
+    background-color: #EFEEEA !important;
 }
 
 .skill-card{
     height: 10rem !important;
-    width: 20rem !important;
+    width: 15rem !important;
     margin-top: 1.5rem !important;
     text-align: center !important;
-    background-color: #AB886D !important;
+    background-color: #DFD0B8 !important;
     box-shadow: 5px 5px 8px #1c1a18 !important;
 }
 
 .skill-card:hover{
-   box-shadow: 10px 15px 20px #1c1a18 !important;
+   box-shadow: 10px 15px 20px #000000 !important;
 
 }
 
@@ -133,50 +145,53 @@ body{
 }
 
 /* education page */
-.college ,.school{
-    display: flex;
+.college-img-div{
+    height: 24rem !important;
+    width: 50rem !important;
+ margin: 1.5rem auto 1rem auto !important;
+ text-align: center !important;
 }
-.college-div,.school-div{
-    background-color: bisque;
-    height: 14rem;
-    width: 40rem;
+.college-img-div h4{
+    color: #EFEEEA !important;
+
+}
+.college_image{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+}
+
+.college-div{
+    background-color: #DFD0B8;
+    height: 8rem;
+    width: 35rem;
     text-align: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 6px 6px 8px #1c1a18;
+   margin: 4rem auto 1rem auto !important;
+   padding: 7px !important;
 }
 
 
  .college-div:hover{
         box-shadow: 10px 10px 15px #1c1a18;
     }
-.school-div:hover{
-        box-shadow: 10px 10px 15px #1c1a18;
-    }
-.college-icon ,.school-icon{
-    font-size: 10rem;
-   margin: 1.5rem 0  0 10rem ;
-    height: 12rem;
-    width: 15rem;
-    /* background-color: #D6C0B3; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 5px 5px 8px #493628;
+/* certifiacte-div */
+.certificate-div{
+    height: 30rem;
+    width: 40rem;
+    margin: 1rem auto 1rem auto;
+    box-shadow: 4px 4px 8px #493628;
 }
-
-.college-icon:hover{
-    box-shadow: 10px 10px 15px #493628;
+.certificate-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
-.school-icon:hover{
-    box-shadow: 10px 10px 15px #493628;
-}
-
 /* project page */
 .project{
-    height: 40rem;
+    height: 70rem;
     width: 50rem;
-    background-color: bisque;
+    background-color: #EFEEEA;
     box-shadow: 8px 8px 10px #493628;
     margin: 1rem auto 1rem auto ;
     line-height: 2rem;
@@ -185,30 +200,22 @@ body{
     text-decoration: none;
   color: #493628;
 }
+.project li{
+    background-color: #DFD0B8;
+}
 
 /* media query */
 @media(max-width:400px){
-    .animation-container{
-        width: 30rem;
-        height: 1rem ;
-    }
-    .animation-container .animation-heading{
-        font-size: 2rem !important;
-        color: #110904;
-        width: 15rem;
-    }
-    .animation-container p{
-       font-size: 1.2rem !important;
-    }
+    
     .nav-link{
       margin-left: 1rem !important;
       width: 10rem !important;
     }
     .navbar-nav{
-        border: 2px solid #AB886D;
+        border: 2px solid #EFEEEA;
         position: sticky !important;
         z-index: 1;
-        background-color:#493628!important;
+        background-color:#000000!important;
     }
     .quote{
         border:  2px solid  #493628 !important;
@@ -223,7 +230,7 @@ body{
         text-align: center !important;
         margin-top: 1rem ;
     }
-    .college-div,.school-div{
+    .college-div{
         background-color: bisque;
         height: 14rem;
         width: 40rem;
@@ -232,15 +239,114 @@ body{
         margin-bottom: 1rem;
         box-shadow: 6px 6px 8px #1c1a18;
     }
-    .college-icon ,.school-icon{
+    .college-icon {
         display: none !important;
     }
-    .project{
-        height: 68rem;
+
+    .body-div{
+    width: 100% !important;
+    height: 40rem !important;
+    margin-top: 0.5rem !important;
+    background-color: #EFEEEA !important;
+    display: inline-block !important;
+    /* text-align: center !important; */
+}
+    .about-container{
+    box-shadow: 6px 6px 10px #273F4F;
+    height: 25rem !important;
+    width: 19.2rem !important;
+    padding: 10px !important;
+   margin:14rem auto !important;
+    background-color: #DFD0B8 !important;
+    position:  absolute !important;
+}
+.about-container p{
+    text-align: start !important;
+}
+.img-div{
+  height: 10rem !important;
+  width: 10rem !important;
+   text-align: center !important;
+   position:absolute;
+  margin-top: 0.5rem !important;
+ margin-left: 4.5rem !important;
+}
+.img{
+  height: 100% !important;
+  width:  100% !important;
+  object-fit: cover !important;
+  border-radius: 100px !important;
+  border: 5px solid white !important;
+}
+.animation-container{
+  margin-top: 0.5rem !important;
+  width: 10rem !important;
+  height: 2rem !important;
+  box-shadow: 3px 3px 6px #273F4F;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.animation-container .animation-heading{
+    font-size: 1rem !important;
+    color: #110904;
+}
+.college-img-div{
+    height: 10rem !important;
+    width: 17rem !important;
+ margin: 1.5rem auto 1rem auto !important;
+ text-align: center !important;
+}
+.college-img-div h4{
+    color: #EFEEEA !important;
+
+}
+.college_image{
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover !important;
+    border-radius: 20px !important;
+}
+.college-name{
+    font-size: 1rem !important;
+    margin-top: 0.5rem !important;
+}
+.college-div{
+    background-color: #EFEEEA;
+    height: 10rem !important;
+    width: 20rem;
+    text-align: center;
+   margin-top: 4rem !important;
+   margin-bottom: 3rem !important;
+   padding: 7px !important;
+   line-height: 0.7rem !important;
+}
+.footer{
+    height: 0.5rem !important;
+    margin: 1rem !important;
+    background-color: #273F4F !important;
+    border-radius: 15px !important;
+    position: sticky !important;
+}
+.certificate-div{
+    height: 15rem;
+    width: 20rem;
+    margin: 1rem auto 1rem auto;
+    box-shadow: 4px 4px 8px #493628;
+}
+.certificate-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+   .project{
+        height: 118rem;
         width: 20rem;
         background-color: bisque;
         box-shadow: 8px 8px 10px #493628;
         margin: 1rem auto 1rem auto ;
         line-height: 2rem;
+        padding: 8px !important;
     }
 }
